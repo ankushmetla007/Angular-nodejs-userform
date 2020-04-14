@@ -8,8 +8,8 @@ var transporter = nodemailer.createTransport({
     secure: false,
     requireTLS: true,
   auth: {
-    user: 'ankushmetla00@gmail.com',
-    pass: 'lamborgini333'
+    user: 'metlaankush@gmail.com',
+    pass: 'ankushmetla007'
   },
   tls: {
       rejectUnauthorized: false
@@ -17,7 +17,7 @@ var transporter = nodemailer.createTransport({
 });
 
 var mailOptions = {
-  from: 'ankushmetla00@gmail.com',
+  from: 'metlaankush@gmail.com',
   to: to,
   subject: 'Registration',
   text: 'You are successfully registered with our service'
