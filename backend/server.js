@@ -29,6 +29,10 @@ app.use(express.static(path.join(__dirname, 'dist/user-form-final')));
 app.use('/', express.static(path.join(__dirname, 'dist/user-form-final')));
 // app.use('/api', employeeRoute)
 app.use('/api', userRoute)
+app.use(express.static(path.join(__dirname, 'public')));
+app.get('*', (req,res)=>{
+res.sendFile(path.join(__dirname, 'profile/index.html'));
+})
 
 // Create port
 const port = process.env.PORT || 4000;
