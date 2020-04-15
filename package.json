@@ -1,14 +1,14 @@
 {
-  "name": "backend",
+  "name": "user-form",
   "version": "1.0.0",
-  "description": "A MEAN Stack CRUD app for employee management",
+  "description": "A User Registration web app",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start":"server.js"
   },
   "keywords": [],
-  "author": "Digamber",
+  "author": "Ankush",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.18.3",
